@@ -108,11 +108,13 @@ export default function HomePage() {
     <h1 className="text-4xl font-bold">The Team</h1>
   </div>
 
-  <div id= "team" className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+  <div id= "team" className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-5 gap-6">
     {[
-     { name: "Alex Smith", role: "Project Lead", image: "https://via.placeholder.com/150/0000FF/808080?Text=Alex+Smith" },
-     { name: "Jamie Lee", role: "Design Specialist", image: "https://via.placeholder.com/150/FF0000/FFFFFF?Text=Jamie+Lee" },
-     { name: "Jordan Kim", role: "IoT Engineer", image: "https://via.placeholder.com/150/00FF00/000000?Text=Jordan+Kim" },
+     { name: "Inaya Aggarwal", role: "Project Lead", image: "https://via.placeholder.com/150/0000FF/808080?Text=Alex+Smith" },
+     { name: "Aarth Singal", role: "", image: "https://via.placeholder.com/150/FF0000/FFFFFF?Text=Jamie+Lee" },
+     { name: "Joseph Oduyebo", role: "Software Engineer", image: "https://via.placeholder.com/150/00FF00/000000?Text=Jordan+Kim" },
+     { name: "ilisha Avasthi", role: "", image: "https://via.placeholder.com/150/00FF00/000000?Text=Jordan+Kim" },
+     { name: "awdhoo", role: "", image: "https://via.placeholder.com/150/00FF00/000000?Text=Jordan+Kim" },
     ].map((member, index) => (
       <div
         key={index}
